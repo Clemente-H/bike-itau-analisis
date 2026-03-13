@@ -163,8 +163,8 @@ plt.savefig(f"{OUTPUT_DIR}/horario_por_comuna.png", dpi=150)
 plt.close()
 print(f"Gráfico guardado: {OUTPUT_DIR}/horario_por_comuna.png")
 
-# ── 7. Barrio Italia — estaciones críticas ──────────────────────────────────────
-# Barrio Italia está en Providencia, entre P02/P34/P35/P11/P41 y cercanas
+# ── 7. Cercanías Barrio Italia — estaciones críticas ───────────────────────────
+# Zona entre Av. Italia, Bustamante, Seminario y Marín (Providencia)
 # Aproximado: lat [-33.449, -33.440], lon [-70.635, -70.618]
 
 barrio_italia_mask = (
@@ -173,7 +173,7 @@ barrio_italia_mask = (
 )
 bi_ids = df[barrio_italia_mask]["station_id"].unique()
 
-print(f"\nEstaciones detectadas en Barrio Italia ({len(bi_ids)}):")
+print(f"\nEstaciones detectadas en cercanías Barrio Italia ({len(bi_ids)}):")
 bi_names = df[df["station_id"].isin(bi_ids)][["station_name","lat","lon"]].drop_duplicates()
 print(bi_names.to_string(index=False))
 
@@ -187,7 +187,7 @@ if len(bi_ids) > 0:
     ).reset_index()
 
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
-    fig.suptitle("Barrio Italia — Disponibilidad por hora y estación", fontsize=13, fontweight="bold")
+    fig.suptitle("Cercanías Barrio Italia — Disponibilidad por hora y estación", fontsize=13, fontweight="bold")
 
     palette = plt.cm.tab10.colors
     estaciones_bi = bi_patron["station_name"].unique()

@@ -76,9 +76,9 @@ En Ñuñoa, las estaciones no tienen anclajes libres el **28% del tiempo en prom
 
 Las estaciones de Vitacura están vacías el 13% del tiempo — pocas bicis disponibles para retirar — pero casi nunca saturadas. Hay demanda de salida pero no de llegada, lo que sugiere un flujo neto desde Vitacura hacia las comunas del sur.
 
-### Barrio Italia: 7 estaciones, todas bajo presión
+### Cercanías Barrio Italia: 7 estaciones, todas bajo presión
 
-Las 7 estaciones del área de Barrio Italia (P02, P11, P34, P35, P41, P56, P70) muestran picos de saturación en horario vespertino. El patrón es consistente: llenas en la tarde, cuando la gente vuelve al barrio.
+Las 7 estaciones del área entre Av. Italia, Bustamante, Seminario y Marín (P02, P11, P34, P35, P41, P56, P70) muestran picos de saturación en horario vespertino. El patrón es consistente: llenas en la tarde, cuando la gente vuelve al barrio.
 
 ### El problema de fondo: redistribución insuficiente
 
@@ -101,5 +101,5 @@ La asimetría entre comunas no es un problema de cantidad de estaciones — Las 
 | `output/patron_horario.png` | Saturación/vaciado promedio por hora (red completa) |
 | `output/saturacion_por_comuna.png` | Comparación de comunas |
 | `output/horario_por_comuna.png` | Patrón horario desglosado por comuna |
-| `output/barrio_italia.png` | Detalle de las 7 estaciones de Barrio Italia |
+| `output/barrio_italia.png` | Detalle de las 7 estaciones de cercanías Barrio Italia |
 | `output/mapa_disponibilidad.html` | Mapa interactivo con slider de hora |
