@@ -378,5 +378,11 @@ output_path = f"{OUTPUT_DIR}/mapa_disponibilidad.html"
 with open(output_path, "w", encoding="utf-8") as f:
     f.write(html)
 
+# También copia a docs/index.html para GitHub Pages
+os.makedirs("docs", exist_ok=True)
+with open("docs/index.html", "w", encoding="utf-8") as f:
+    f.write(html)
+
 print(f"Mapa generado: {output_path}")
+print(f"GitHub Pages:  docs/index.html")
 print(f"Abre con: open {output_path}")
