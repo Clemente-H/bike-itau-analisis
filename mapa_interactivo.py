@@ -215,7 +215,7 @@ html = f"""<!DOCTYPE html>
 <div id="header">
   <div>
     <h1>🚲 Bike Itaú — Disponibilidad por hora</h1>
-    <div class="sub">Santiago · datos recolectados 6–13 Mar 2026 (~162 snapshots)</div>
+    <div class="sub">Santiago · datos recolectados 6–23 Mar 2026 (~359 snapshots, 17 días)</div>
   </div>
 </div>
 <div id="container">
