@@ -58,19 +58,19 @@ python mapa_interactivo.py   # mapa HTML interactivo → output/mapa_disponibili
 
 ## Análisis y conclusiones
 
-> Datos recolectados del 6 al 13 de marzo de 2026 (~162 snapshots, 198 estaciones válidas).
+> Datos recolectados del 6 al 23 de marzo de 2026 (17 días, ~359 snapshots, 198 estaciones válidas).
 
 ### Ñuñoa es la comuna más saturada de la red
 
-En Ñuñoa, las estaciones no tienen anclajes libres el **28% del tiempo en promedio** — más del doble que Las Condes (6%) y casi el triple que Vitacura (0.4%). Esto significa que un usuario que llega pedaleando a Ñuñoa tiene una probabilidad significativa de no encontrar dónde dejar su bici.
+En Ñuñoa, las estaciones no tienen anclajes libres el **35% del tiempo en promedio** — más de cinco veces que Las Condes (6.5%) y casi sin comparación con Vitacura (0.4%). Esto significa que un usuario que llega pedaleando a Ñuñoa tiene una probabilidad significativa de no encontrar dónde dejar su bici.
 
 | Comuna | Sin anclajes (prom.) | Sin bicis (prom.) | Estaciones |
 |---|---|---|---|
-| Ñuñoa | **28.3%** | 0.2% | 20 |
-| Providencia | 25.4% | 0.6% | 67 |
-| Independencia | 13.2% | 0.0% | 3 |
-| Las Condes | 6.4% | 6.6% | 95 |
-| Vitacura | 0.4% | 13.1% | 12 |
+| Ñuñoa | **35.2%** | 0.1% | 20 |
+| Providencia | 26.9% | 0.6% | 67 |
+| Independencia | 12.1% | 0.0% | 3 |
+| Las Condes | 6.5% | 7.4% | 95 |
+| Vitacura | 0.4% | 14.7% | 12 |
 
 ### Vitacura tiene el problema inverso
 
