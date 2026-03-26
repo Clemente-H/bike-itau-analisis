@@ -58,7 +58,7 @@ python mapa_interactivo.py   # mapa HTML interactivo → output/mapa_disponibili
 
 ## Análisis y conclusiones
 
-> Datos recolectados del 6 al 23 de marzo de 2026 (17 días, ~359 snapshots, 198 estaciones válidas).
+> Datos recolectados del 6 al 23 de marzo de 2026 (17 días, ~363 snapshots, 198 estaciones válidas).
 
 ### Ñuñoa es la comuna más saturada de la red
 
@@ -102,4 +102,6 @@ La asimetría entre comunas no es un problema de cantidad de estaciones — Las 
 | `output/saturacion_por_comuna.png` | Comparación de comunas |
 | `output/horario_por_comuna.png` | Patrón horario desglosado por comuna |
 | `output/barrio_italia.png` | Detalle de las 7 estaciones de cercanías Barrio Italia |
-| `output/mapa_disponibilidad.html` | Mapa interactivo con slider de hora |
+| `output/mapa_disponibilidad.html` | Mapa interactivo por franja horaria |
+
+> **Nota:** "Armazem salida" y "P07X - Eduardo de La Barra" son puntos de distribución interna (depósitos), no estaciones de uso público. Se excluyen del análisis.

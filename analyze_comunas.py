@@ -77,7 +77,7 @@ resumen = metricas.groupby("comuna").agg(
     pct_llena_max=("pct_llena", "max"),
     bikes_avg=("bikes_avg", "mean"),
     docks_avg=("docks_avg", "mean"),
-    pct_criticas=("pct_llena", lambda x: (x >= 0.6).mean()),
+    pct_criticas=("pct_llena", lambda x: (x >= 0.35).mean()),
 ).reset_index()
 
 resumen = resumen.sort_values("pct_llena_avg", ascending=False)
